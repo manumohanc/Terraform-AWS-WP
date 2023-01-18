@@ -1,6 +1,7 @@
 module "vpc" {
 
   source      = "/home/ec2-user/vpc-module-main"
+ # source      = "github.com/manumohanc/Terraform-AWS-VPC-Module" #
   project     = var.project
   environment = var.environment
   vpc_cidr    = var.vpc_cidr
